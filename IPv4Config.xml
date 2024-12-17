@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+    <interface hosts="vehicle[*]" names="wlan0" address="10.0.0.x" netmask="255.255.255.0"/>
+    <interface hosts="rsu[*]" names="wlan0" address="10.0.1.x" netmask="255.255.255.0"/>
+    <interface hosts="gateway" names="wlan0" address="10.0.2.1" netmask="255.255.255.0"/>
+</config>
